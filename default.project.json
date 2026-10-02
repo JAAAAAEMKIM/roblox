@@ -1,0 +1,17 @@
+{
+  "name": "Q-RUN",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": { "$path": "src/shared" }
+    },
+    "ServerScriptService": {
+      "QRunServer": { "$path": "src/server" }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "QRunClient": { "$path": "src/client" }
+      }
+    }
+  }
+}
